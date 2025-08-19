@@ -1,0 +1,5 @@
+gpioled {
+    compatible = "rpi,gpio27-led";
+    led-gpios = <&gpio 27 GPIO_ACTIVE_HIGH>;
+    status = "okay";
+};

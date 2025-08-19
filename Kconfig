@@ -1,0 +1,8 @@
+menu "mgpio device driver"
+config MGPIO
+    tristate "mgpio device driver" #tristate là có 3 trạng thái và option ‘m’ tức là module
+    depends on ARM
+    default m if ARM
+    help
+        Select this option to run mgpio module.
+endmenu
